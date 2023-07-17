@@ -6,6 +6,7 @@ This script gives you the ability to type **/repair** while not at a mechanic sh
 
 ## Dependacies ##
 - PolyZone (https://github.com/mkafrin/PolyZone)
+- cd_drawtext (https://docs.codesign.pro/free-scripts/drawtext-ui) or okokTextUI (https://okok.tebex.io/package/4725001) or ox_lib (https://github.com/overextended/ox_lib)
 
 ## Support ##
 https://discord.gg/5uBCQ6z77c
