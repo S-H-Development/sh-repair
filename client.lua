@@ -51,9 +51,15 @@ CreateThread(function()
     while true do
         local ped = PlayerPedId()
         local veh = GetVehiclePedIsIn(ped, false)
+        local class = GetVehicleClass(veh)
         if IsEntityInAir(veh) then
-            DisableControlAction(0, 59, true)  -- Disable leaning left/right (A/D)
-            DisableControlAction(0, 60, true)  -- Disable leaning forward/backward (W/S)
+            if class == 8 then
+                EnableControlAction(0, 59, true)
+                EnableControlAction(0, 60, true)
+            else
+                DisableControlAction(0, 59, true)  -- Disable leaning left/right (A/D)
+                DisableControlAction(0, 60, true)  -- Disable leaning forward/backward (W/S)
+            end
         else
             if IsEntityInAir(veh) then
                 EnableControlAction(0, 59, true)
