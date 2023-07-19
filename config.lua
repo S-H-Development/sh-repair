@@ -11,6 +11,8 @@ Config = Config or {}
 Config.Notify = "standalone" -- Use default for the default built in notify & use okok for okok's Notify system
 Config.DrawText = "ox" -- Use "cd" for cd_drawtextui, use "okok" for okok's Drawtext UI system, use "ox" for ox_lib drawtext
 
+Config.DisableAirroll = "true"
+
 Config.FixZone = {
     ['lscustoms'] = {
         ['Zone'] = {
