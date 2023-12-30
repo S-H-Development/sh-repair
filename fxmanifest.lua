@@ -19,6 +19,7 @@ client_scripts {
     '@PolyZone/EntityZone.lua',
     '@PolyZone/CircleZone.lua',
     '@PolyZone/ComboZone.lua',
+    --'@ox_lib/init.lua', Uncomment if your using ox in the config
     'client.lua'
 }
 
